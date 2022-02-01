@@ -1,0 +1,30 @@
+
+# Linux Shell
+
+**Linux Commands most used on my instance** 
+
+<h6>Comand to: Connect on my instance</h6>
+```content
+ssh root@153.92.214.46
+```
+**Need an ssh key**
+
+<h6>Comand to: Start shell agent and add new key</h6>
+```content
+eval ssh-agent $SHELL && ssh-add ~/.ssh/new_git_key
+```
+
+<h6>Comand to: Start PM2 agent in production enviroment</h6>
+```content
+pm2 start ecosystem.config.js --env production
+```
+
+<h6>Comand to: Git get all changes from github repo</h6>
+```content
+git fetch origin master
+```
+
+<h6>Comand to: Git apply all changes from github repo, updating the modified files</h6>
+```content
+ git reset --hard origin/master
+```
