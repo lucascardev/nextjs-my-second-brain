@@ -1,0 +1,26 @@
+
+# Project for creating a site for joining all the social media content. Twitter, Intagram, Facebook
+
+**Correct way to use useMemo** 
+
+```js
+    const value = useMemo (
+() => numbers. reduce((a, v) => a + v, 0),
+[numbers]
+);
+```
+
+**Bad way to use**
+```js
+const value = useMemo (
+'(
+=> number1 + number2,
+[numberi, number2]
+```
+**Good**
+```js
+const value = numberl + number2;
+```
+
+
+
