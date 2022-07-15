@@ -8,8 +8,8 @@ import React from "react";
                 <h1>Instagram, Twiter</h1>
                 {/* lista com as tecnologias */}
                 <ul>
-                    {process.env.REACT_APP_INSTAGRAM_CLIENT_ID}
                     <li>Instagram API - </li>
+                    
                     <li>Twiter API - </li>
                 </ul>
          
