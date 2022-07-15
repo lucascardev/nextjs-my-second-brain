@@ -6,7 +6,7 @@ export default {
     <>
       <span className="mr-2 font-extrabold hidden md:inline">Nextra</span>
       <span className="text-gray-600 font-normal hidden md:inline">
-        The Next.js Static Site Generator - <a target='_blank' href="https://lucascardev.github.io/myprofile/">Lucascardev</a> - Second Brain
+        My second brain - <a target='_blank' href="https://lucascardev.github.io/myprofile/">Lucascardev</a> - Second Brain
       </span>
     </>
   ),
